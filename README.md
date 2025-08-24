@@ -5,12 +5,16 @@ A classic terminal-based Snake game written in C using the ncurses library. Cont
 ## Requirements
 
 Install ncurses development library:
+```bash
 sudo apt-get install libncurses5-dev
+```
 
 ## Build & Run
 
+```bash
 gcc -o snake snake.c -lncurses
 ./snake
+```
 
 ## Controls
 
